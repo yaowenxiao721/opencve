@@ -44,6 +44,6 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    entry_points={"console_scripts": ["opencve=opencve.cli:cli"]},
+    entry_points={"console_scripts": ["vulplat=opencve.cli:cli"]},
     python_requires=">=3.7",
 )
