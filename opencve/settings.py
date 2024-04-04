@@ -184,7 +184,7 @@ class Config(object):
 
         # Flask-Admin
         admin = Admin(
-            name="OpenCVE Admin", template_mode="bootstrap3", index_view=HomeView()
+            name="VulPlat Admin", template_mode="bootstrap3", index_view=HomeView()
         )
         admin.init_app(app)
         with warnings.catch_warnings():
